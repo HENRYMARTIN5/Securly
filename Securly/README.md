@@ -10,6 +10,6 @@ This is the main folder. It contains all of the source files extracted from the 
  - content3.min.js - The script that runs when you search for something in Google, Bing, or Yahoo.
  - content4.min.js - The script that runs on ALL SITES! BIG NO-NO!
  - content5.min.js - Literally just Jquery. Wow.
- - content5.min.js - To be documented: Literally just stalks what google meet you're on.
+ - content5.min.js - Literally just stalks what google meet you're on.
  - manifest.json - Contains the regex for all the background and content scripts and what sites they're loaded on, as well as checksums for the original version.
  - securly.min.js - The MAIN file. It runs in the background, stalks you, fetches data from all the content files, etc, etc. To be documented.
