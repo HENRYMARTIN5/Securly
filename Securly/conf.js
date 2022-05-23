@@ -1,17 +1,22 @@
+// Probably something that contains all the blocked pages
 var checkClusterURL = "https://www.securly.com";
 
+// Also probably useful in the future, this seems to be some dev's email that could be haxed
 var DEBUG_userEmail = "amar@securlyqa1.com";
 var forceUserEmail = false;
 
+// Might be useful in the future...
 var DEBUG_clusterUrl = "https://stagwww.securly.com/crextn";
 var forceClusterUrl = false;
 
+// IDK
 var iwfEncodeStep = 3;
 
 var iframeResp = "";
 var iframeBlockUrl = ""; 
 
 var lastKnownState = "unknown";
+// Tabs to check for explicit content / block outright (veeery long list)
 const tabCheck = [
     'netflix.com',
     'spotify.com',
