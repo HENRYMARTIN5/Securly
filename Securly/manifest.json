@@ -1,10 +1,10 @@
 {
 "update_url": "https://clients2.google.com/service/update2/crx",
 
-  "name": "Securly for Chromebooks",
+  "name": "Securly for Chromebooks - Haxed by N3rdL0rd",
   "short_name": "Securly",
   "version": "2.98.35",
-  "description": "Secure and manage your 1:1 Chromebooks with Securly",
+  "description": "Secure and manage your 1:1 Chromebooks with Securly. Remember students, BIG BROTHER IS WATCHING!",
   "permissions": ["webRequest", "webRequestBlocking", "identity", "*://*/","file://*", "cookies", "tabs", "browsingData", "identity.email", "geolocation", "idle", "downloads"],
   "content_scripts": [{
     "matches": ["*://*.youtube.com/*", "*://youtube.com/*", "*://youtube-nocookie.com/*","*://*.youtube-nocookie.com/*"],

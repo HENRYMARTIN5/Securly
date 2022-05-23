@@ -7,3 +7,5 @@ This is the main folder. It contains all of the source files extracted from the 
  - conf.js - The config file for all of Securly.
  - content.min.js - The script that runs on Youtube
  - content2.min.js - The script that runs on Google Maps (for some weird reason)
+ - content3.min.js - The script that runs when you search for something in Google, Bing, or Yahoo.
+ - content4.min.js - The script that runs on ALL SITES! BIG NO-NO!
