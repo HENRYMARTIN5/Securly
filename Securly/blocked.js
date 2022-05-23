@@ -1,3 +1,18 @@
+///////////////////////////////
+//    Blocked Page Script    //
+///////////////////////////////
+
+// This is run when you load the blocked site.
+
+
+
+// Big Brother is watching.
+
+
+
+////// Begin Code //////
+
+// Just sets the info of the blocked page.
 function setInfo() {
     try {
     var site = new URLSearchParams(window.location.search).get("site");
