@@ -1,0 +1,60 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+  "name": "Securly for Chromebooks",
+  "short_name": "Securly",
+  "version": "2.98.35",
+  "description": "Secure and manage your 1:1 Chromebooks with Securly",
+  "permissions": ["webRequest", "webRequestBlocking", "identity", "*://*/","file://*", "cookies", "tabs", "browsingData", "identity.email", "geolocation", "idle", "downloads"],
+  "content_scripts": [{
+    "matches": ["*://*.youtube.com/*", "*://youtube.com/*", "*://youtube-nocookie.com/*","*://*.youtube-nocookie.com/*"],
+    "js": ["content.min.js"],
+    "run_at": "document_idle",
+    "all_frames": true
+  },
+  {
+    "matches": ["*://*.google.com/maps/*","*://google.com/maps/*"],
+    "js": ["content2.min.js"],
+    "run_at": "document_idle",
+    "all_frames": true
+  },
+  {
+    "matches": ["*://*.google.com/*","*://google.com/*","*://*.bing.com/*","*://bing.com/*","*://*.search.yahoo.com/*","*://search.yahoo.com/*"],
+    "js": ["content3.min.js"],
+    "run_at": "document_idle",
+    "all_frames": true
+  },
+  {
+    "matches": ["*://meet.google.com/*"],
+    "js": ["content6.min.js"],
+    "run_at": "document_idle",
+    "all_frames": true
+  },
+  {
+    "matches": ["<all_urls>"],
+    "js": ["content4.min.js"],
+    "run_at": "document_idle",
+    "all_frames": false
+  }
+  ],
+  "background": {
+    "scripts": ["conf.js", "securly.min.js"],
+    "persistent": true
+  },
+  "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDAb9tHNQkaX2R/K5CjzGgei7aQXn4wRkJyL8ZRhje0xjgHRPrK0zPictv4i/G0pIUQjoOpPt7QcgenbwbnJ73rRcNtDP03y69cQt8mIrZssAYcyjxSPYOiOABbWLSFp61YRkzfLbnNg/3brOI5sAXigyvJO7ze7cJFH2S/dmsI3wIDAQAB",
+  "oauth2": {
+    "client_id": "979354546084.apps.googleusercontent.com",
+    "scopes": [
+      "email"
+    ]
+  },
+  "web_accessible_resources": [
+    "fonts/*",
+    "*.svg"
+  ],
+  "icons": { "16": "icon16.png",
+             "48": "icon48.png",
+            "128": "icon128.png" },
+
+  "manifest_version": 2
+}
