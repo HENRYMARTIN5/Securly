@@ -26,6 +26,7 @@ function setInfo() {
     }
 }
 
+// On page load, set the info. Duh..
  document.addEventListener("DOMContentLoaded", function(event) {
       setInfo();
   });
