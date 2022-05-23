@@ -3,5 +3,7 @@ This is the main folder. It contains all of the source files extracted from the 
 
 ### Some important links:
  - blocked.html - The page that appears when a site gets blocked on you.
+ - blocked.js - The script that runs on the blocked page
  - conf.js - The config file for all of Securly.
  - content.min.js - The script that runs on Youtube
+ - content2.min.js - The script that runs on Google Maps (for some weird reason)

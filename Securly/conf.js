@@ -1,3 +1,17 @@
+///////////////////////////////
+//    Config File            //
+///////////////////////////////
+
+// Literally just config.
+
+
+
+// Big Brother is watching.
+
+
+
+////// Begin Code //////
+
 // Probably something that contains all the blocked pages
 var checkClusterURL = "https://www.securly.com";
 
